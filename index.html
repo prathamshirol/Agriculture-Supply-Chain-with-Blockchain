@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agriculture Supply Chain</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Agriculture Supply Chain</h1>
+        <div class="card">
+            <h2>Add Farmer</h2>
+            <input type="text" id="farmerName" placeholder="Farmer Name" />
+            <input type="text" id="farmerAddress" placeholder="Farmer Address" />
+            <button onclick="addFarmer()">Add Farmer</button>
+        </div>
+        <div class="card">
+            <h2>Add Product</h2>
+            <input type="number" id="productId" placeholder="Product ID" />
+            <input type="text" id="productName" placeholder="Product Name" />
+            <input type="number" id="productQuantity" placeholder="Quantity" />
+            <input type="number" id="productPrice" placeholder="Price (in Wei)" />
+            <button onclick="addProduct()">Add Product</button>
+        </div>
+        <div class="card">
+            <h2>Sell Product</h2>
+            <input type="number" id="sellProductId" placeholder="Product ID" />
+            <input type="number" id="sellQuantity" placeholder="Quantity to Sell" />
+            <button onclick="sellProduct()">Sell Product</button>
+        </div>
+        <div class="card">
+            <h2>Record Post-Harvest Loss</h2>
+            <input type="number" id="lossProductId" placeholder="Product ID" />
+            <input type="number" id="lostQuantity" placeholder="Lost Quantity" />
+            <button onclick="recordLoss()">Record Loss</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.7.3/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
