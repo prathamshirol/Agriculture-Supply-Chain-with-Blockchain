@@ -21,6 +21,9 @@ The system is deployed on the Ethereum blockchain using Geth. The frontend appli
 
 
 #Results
+
+![WhatsApp Image 2024-06-20 at 19 29 12_143b0e08](https://github.com/user-attachments/assets/cce6dca4-02f7-4d98-9852-aa75d3ae5aa8)
+
 [6/20, 19:29] Pratham: Adding Farmer
 [6/20, 19:31] Pratham: adding product
 [6/20, 19:32] Pratham: selling product
