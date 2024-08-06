@@ -19,6 +19,10 @@ Frontend Integration: Web3.js and MetaMask
 Deployment
 The system is deployed on the Ethereum blockchain using Geth. The frontend application connects to the Geth node to interact with the deployed smart contracts.
 
+# Usecase Diagram
+
+![Brainstorming_and_ideation 1](https://github.com/user-attachments/assets/b9ff4a2a-4172-440a-860c-620773bf4c5c)
+
 
 # Results
 
